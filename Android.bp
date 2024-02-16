@@ -19,4 +19,7 @@ android_app_import {
 		"Gallery3D",
 		"GalleryNew3D",
 	],
+	required: [
+		"GlimpseFrameworksBaseOverlay",
+	],
 }
