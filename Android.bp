@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+	name: "GlimpsePrebuilt",
+	owner: "lineage",
+	apk: "app-debug.apk",
+	presigned: true,
+	product_specific: true,
+	overrides: [
+		"Gallery",
+		"Gallery2",
+		"Gallery3D",
+		"GalleryNew3D",
+	],
+}
