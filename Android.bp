@@ -10,8 +10,8 @@ package {
 android_app_import {
 	name: "GlimpsePrebuilt",
 	owner: "lineage",
-	apk: "app-debug.apk",
-	presigned: true,
+	apk: "app-release-unsigned.apk",
+	certificate: "platform",
 	product_specific: true,
 	optional_uses_libs: [
 		"androidx.window.extensions",
